@@ -2,6 +2,14 @@
 
 A Flask API that helps recruiters compare a candidate profile with a job description. It uses Groq models to structure job descriptions, assess evidence for role criteria, and stream recruiter-facing answers grounded in the candidate profile.
 
+## UI
+
+The companion frontend for this project is available here:
+
+- https://github.com/akash-sindu/recruiter-ui
+
+This UI provides a browser-based interface for uploading job descriptions, reviewing the fit analysis, and chatting with the recruiter assistant built on top of this backend API.
+
 ## Features
 
 - Accept job descriptions as text or as PDF, DOCX, and TXT files.
