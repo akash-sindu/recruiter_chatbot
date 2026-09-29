@@ -1,0 +1,22 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Candidate profile is personal data and must stay local
+/data/candidate_profile.md
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.log
+instance/
+uploads/
+
+# Local editor and OS files
+.DS_Store
+.vscode/
+.idea/
